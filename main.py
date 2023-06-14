@@ -41,7 +41,7 @@ def newsforum():
     cursor.execute(query)
     ausgaben = cursor.fetchall()
 
-    print(ausgaben)
+
 
     return render_template('newsforum.html',ausgaben=ausgaben)
 
